@@ -6,52 +6,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Sitka Lutheran Church</title>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="fadeslideshow.js">
-
-/***********************************************
-* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
-</script>
-
-<script type="text/javascript">
-
-var mygallery=new fadeSlideShow({
-	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [300, 225], //width/height of gallery in pixels. Should reflect dimensions of largest image
-	imagearray: [
-		["fade/366.jpg", "", "", ""],
-		["fade/sanctuary.jpg", "", "", ""],
-		["fade/412.jpg", "", "", ""],
-		["fade/410.jpg", "", "", ""],
-		["fade/540.jpg", "", "", ""],
-		["fade/058.jpg", "", "", ""],
-		["fade/064.jpg", "", "", ""],
-		["fade/loft.jpg", "", "", ""],
-		["fade/260.jpg", "", "", ""],
-		["fade/231.jpg", "", "", ""],
-		["fade/255.jpg", "", "", ""],
-		["fade/413.jpg", "", "", ""],
-		["fade/419.jpg", "", "", ""]
-		 //<--no trailing comma after very last image element!-->
-	],
-	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
-	persist: false, //remember last viewed slide and recall within same session?
-	fadeduration: 2000, //transition duration (milliseconds)
-	descreveal: "peekaboo",
-	togglerid: ""
-})
-
-</script>
-
-
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+h2 {
+	margin-bottom: 0;
+}
+-->
+</style>
 </head>
 
 <body>
@@ -63,7 +27,8 @@ var mygallery=new fadeSlideShow({
   Sunday Worship 10:30 <span class="ampm">AM</span><br />
     Sep-May: Sunday School &amp; Adult Forum 9:15 <span class="ampm">AM</span></div>
 
-<div id="fadeshow1"></div>
+<div id="fadeshow1">
+  <img src="img/tba.jpg" width="300" height="225" alt="Connect: Sitka Lutheran Church"></div>
 
 </div><!-- /header -->
 
@@ -79,7 +44,7 @@ var mygallery=new fadeSlideShow({
 			<a href="funerals.php">Funerals</a>
 		</dd>
 	</dl><dl>
-		<dt class="sub"><a href="#">GROW &#8711;</a></dt>
+		<dt id="currentpage" class="sub"><a href="#">GROW &#8711;</a></dt>
 		<dd>
 			<a href="children.php">Children</a>
 			<a href="youth.php">Youth</a>
@@ -133,15 +98,14 @@ var mygallery=new fadeSlideShow({
 			<a href="http://www.livinglutheran.com/" target="_blank">&nbsp; &nbsp;Living Lutheran</a>
 		</dd>
      </dl><dl>
-		<dt id="currentpage"><a href="./">Home</a></dt>
+		<dt><a href="./">Home</a></dt>
 	</dl>
     <img src="transparent.gif" alt="" />
 </div>  <!-- /menu -->
 
 
 <div id="content">
-
-<div id="sidebar">
+  <div id="sidebar">
 <h2>Announcements</h2>
 <h3><a href="pdfs/current_cal.pdf" target="_blank">Current Calendar</a><br />
   <a href="pdfs/current_sndgs.pdf" target="_blank">Current <em>Soundings</em></a></h3>
@@ -168,15 +132,16 @@ var mygallery=new fadeSlideShow({
   Sitka, AK 99835</strong></p>
 <p><img src="img/ship.gif" width="160" height="155" alt="Ship" /></p>
 </div>
-
-<div id="main">
-<h1>Welcome! </h1>
-<p>We are glad you are visiting our website and hope to see you soon at the church itself. </p>
-<p>We are a congregation of exciting, interesting, faithful Christians who seek to serve our community and lead people into a deeper faith in Jesus Christ. We worship with joy, serve with warmth and compassion, and strive to be followers of Christ in all that we do. </p>
-<p>Sitka Lutheran Church is a member congregation of the Evangelical Lutheran Church in America (ELCA). Sitka Lutheran welcomes all people regardless of age, economic level, gender, race, ability, or sexual orientation. </p>
-<h2>Join us!</h2>
-<p style="text-align:center; margin-top:100px;"><img src="img/first.jpg" width="600" height="270" alt="First Protestant Church" /></p>
-
+  <div id="main">
+    <h1>GROW in Faith Formation - Children: Ages 3 through 12</h1>
+    <h2>Sunday School</h2>
+    <img src="fade/366.jpg" alt="Children at the Altar" width="300" height="225" class="floatR imgB" />
+    <p> Sunday mornings at 9:15 there are lessons for age 3 through 12 from September through May.</p>
+    <h2>Vacation Bible School </h2>
+    <p> A FREE week long VBS takes place every summer. This event is jointly sponsoedr by Sitka Lutheran Church, the United Methodist Church, Assembly of God, Grace Harbor, St. Peter’s Episcopal, and the First Presbyterian Church.</p>
+    <h2>Glacier Bible Camp for Grades 5 through 12  
+    </h2>
+    <p>Each summer the youngsters of the Lutheran churches in Southeast Alaska gather for a week of camp. learning about God’s love and forgiveness, hiking, singing, playing, games, crafts, and nightly campfires are all a part of the wonderful experience of camp.</p>
 </div>  <!-- /main -->
 
 <br class="clearB" />
@@ -185,8 +150,7 @@ var mygallery=new fadeSlideShow({
 
 </div>  <!-- /wrapper -->
 
-<div id="footer">
-&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
+<div id="footer">&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
 
 </body>
 </html>

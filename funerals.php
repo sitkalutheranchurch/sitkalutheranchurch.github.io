@@ -4,50 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sitka Lutheran Church</title>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="fadeslideshow.js">
-
-/***********************************************
-* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
-</script>
-
-<script type="text/javascript">
-
-var mygallery=new fadeSlideShow({
-	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [300, 225], //width/height of gallery in pixels. Should reflect dimensions of largest image
-	imagearray: [
-		["fade/366.jpg", "", "", ""],
-		["fade/sanctuary.jpg", "", "", ""],
-		["fade/412.jpg", "", "", ""],
-		["fade/410.jpg", "", "", ""],
-		["fade/540.jpg", "", "", ""],
-		["fade/058.jpg", "", "", ""],
-		["fade/064.jpg", "", "", ""],
-		["fade/loft.jpg", "", "", ""],
-		["fade/260.jpg", "", "", ""],
-		["fade/231.jpg", "", "", ""],
-		["fade/255.jpg", "", "", ""],
-		["fade/413.jpg", "", "", ""],
-		["fade/419.jpg", "", "", ""]
-		 //<--no trailing comma after very last image element!-->
-	],
-	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
-	persist: false, //remember last viewed slide and recall within same session?
-	fadeduration: 2000, //transition duration (milliseconds)
-	descreveal: "peekaboo",
-	togglerid: ""
-})
-
-</script>
-
+<title>WORSHIP - Funerals: Sitka Lutheran Church</title>
 
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
@@ -63,14 +20,14 @@ var mygallery=new fadeSlideShow({
   Sunday Worship 10:30 <span class="ampm">AM</span><br />
     Sep-May: Sunday School &amp; Adult Forum 9:15 <span class="ampm">AM</span></div>
 
-<div id="fadeshow1"></div>
+<div id="fadeshow1"><img src="fade/sanctuary.jpg" width="300" height="225" alt="WORSHIP: Sitka Lutheran Church"></div>
 
 </div><!-- /header -->
 
 
 <div class="menu">
 <dl>
-		<dt class="sub"><a href="#">WORSHIP &#8711;</a></dt>
+		<dt id="currentpage" class="sub"><a href="#">WORSHIP &#8711;</a></dt>
 		<dd>
 			<a href="expect.php">What to expect</a>
 			<a href="believe.php">What we believe</a>
@@ -133,15 +90,14 @@ var mygallery=new fadeSlideShow({
 			<a href="http://www.livinglutheran.com/" target="_blank">&nbsp; &nbsp;Living Lutheran</a>
 		</dd>
      </dl><dl>
-		<dt id="currentpage"><a href="./">Home</a></dt>
+		<dt><a href="./">Home</a></dt>
 	</dl>
     <img src="transparent.gif" alt="" />
 </div>  <!-- /menu -->
 
 
 <div id="content">
-
-<div id="sidebar">
+  <div id="sidebar">
 <h2>Announcements</h2>
 <h3><a href="pdfs/current_cal.pdf" target="_blank">Current Calendar</a><br />
   <a href="pdfs/current_sndgs.pdf" target="_blank">Current <em>Soundings</em></a></h3>
@@ -168,14 +124,27 @@ var mygallery=new fadeSlideShow({
   Sitka, AK 99835</strong></p>
 <p><img src="img/ship.gif" width="160" height="155" alt="Ship" /></p>
 </div>
+  <div id="main">
+    <h1>WORSHIP - Funerals</h1>
 
-<div id="main">
-<h1>Welcome! </h1>
-<p>We are glad you are visiting our website and hope to see you soon at the church itself. </p>
-<p>We are a congregation of exciting, interesting, faithful Christians who seek to serve our community and lead people into a deeper faith in Jesus Christ. We worship with joy, serve with warmth and compassion, and strive to be followers of Christ in all that we do. </p>
-<p>Sitka Lutheran Church is a member congregation of the Evangelical Lutheran Church in America (ELCA). Sitka Lutheran welcomes all people regardless of age, economic level, gender, race, ability, or sexual orientation. </p>
-<h2>Join us!</h2>
-<p style="text-align:center; margin-top:100px;"><img src="img/first.jpg" width="600" height="270" alt="First Protestant Church" /></p>
+    <img src="img/640.jpg" alt="Cross" width="200" height="267" class="floatR imgB" style="margin-bottom:12px;" />
+<p>Funerals are services of worship, remembering the deceased, celebrating God's grace and preparing family and friends to grieve properly in the light of Christian hope. Because funerals are an important part of the healing ministry of the church, the following guidelines are offered so that families may have some direction in the midst of difficult and often confusing circumstances.
+ 
+</p> 
+<h3>THINGS TO KNOW  </h3> 
+    <div id="expect">
+    <ul style="list-style-type:disc; margin-bottom:-10px"> 
+  <li>If death is imminent, then please the Pastor so that she or he may be there to offer final prayers and farewell and Godspeed to the loved&nbsp;one. </li>
+    <li>The death of a member of Sitka Lutheran is to be reported to the Pastor as soon as possible. The Pastor will visit with the family and begin with them the preparations for the funeral, memorial, or celebration of life. </li>
+    <li>Funerals can be arranged for those people are loosely associated with Sitka Lutheran or have no other church affiliation. </li>
+    <li>The funeral may be held at the church with a graveside service to follow or the entire funeral may take place at the grave site, whichever the family prefers. </li>
+    <li>In preparation for the funeral the family may suggest favorite Bible passages, hymns, poems, and/or stories that might be used in the service. </li>
+    <li>Church facilities can be made available for a reception after the funeral pending other scheduled events. </li>
+    <li>The Pastor does not charge a fee for her or his services. A musician may charge a fee for services. In either case, honorariums will be accepted although none are expected. </li>
+    </ul>
+    </div> 
+    <h2 style="margin-bottom:0;">&nbsp;</h2>
+    <p>Please contact the church office for complete information: 907-747-3338 </p>
 
 </div>  <!-- /main -->
 
@@ -185,8 +154,7 @@ var mygallery=new fadeSlideShow({
 
 </div>  <!-- /wrapper -->
 
-<div id="footer">
-&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
+<div id="footer">&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
 
 </body>
 </html>

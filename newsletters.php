@@ -6,48 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Sitka Lutheran Church</title>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="fadeslideshow.js">
-
-/***********************************************
-* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
-</script>
-
-<script type="text/javascript">
-
-var mygallery=new fadeSlideShow({
-	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [300, 225], //width/height of gallery in pixels. Should reflect dimensions of largest image
-	imagearray: [
-		["fade/366.jpg", "", "", ""],
-		["fade/sanctuary.jpg", "", "", ""],
-		["fade/412.jpg", "", "", ""],
-		["fade/410.jpg", "", "", ""],
-		["fade/540.jpg", "", "", ""],
-		["fade/058.jpg", "", "", ""],
-		["fade/064.jpg", "", "", ""],
-		["fade/loft.jpg", "", "", ""],
-		["fade/260.jpg", "", "", ""],
-		["fade/231.jpg", "", "", ""],
-		["fade/255.jpg", "", "", ""],
-		["fade/413.jpg", "", "", ""],
-		["fade/419.jpg", "", "", ""]
-		 //<--no trailing comma after very last image element!-->
-	],
-	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
-	persist: false, //remember last viewed slide and recall within same session?
-	fadeduration: 2000, //transition duration (milliseconds)
-	descreveal: "peekaboo",
-	togglerid: ""
-})
-
-</script>
-
 
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
@@ -63,7 +21,7 @@ var mygallery=new fadeSlideShow({
   Sunday Worship 10:30 <span class="ampm">AM</span><br />
     Sep-May: Sunday School &amp; Adult Forum 9:15 <span class="ampm">AM</span></div>
 
-<div id="fadeshow1"></div>
+<div id="fadeshow1"><img src="fade/419.jpg" width="300" height="225" alt="Connect: Sitka Lutheran Church"></div>
 
 </div><!-- /header -->
 
@@ -120,7 +78,7 @@ var mygallery=new fadeSlideShow({
             <a href="#.php">Semi-annual reports</a>
 		</dd>
      </dl><dl>
-		<dt class="sub"><a href="#">CONNECT &#8711;</a></dt>
+		<dt id="currentpage" class="sub"><a href="#">CONNECT &#8711;</a></dt>
 		<dd>
 			<a href="contact.php">Contact us</a>	
             <a href="calendars.php">Calendar</a>
@@ -133,7 +91,7 @@ var mygallery=new fadeSlideShow({
 			<a href="http://www.livinglutheran.com/" target="_blank">&nbsp; &nbsp;Living Lutheran</a>
 		</dd>
      </dl><dl>
-		<dt id="currentpage"><a href="./">Home</a></dt>
+		<dt><a href="./">Home</a></dt>
 	</dl>
     <img src="transparent.gif" alt="" />
 </div>  <!-- /menu -->
@@ -170,14 +128,18 @@ var mygallery=new fadeSlideShow({
 </div>
 
 <div id="main">
-<h1>Welcome! </h1>
-<p>We are glad you are visiting our website and hope to see you soon at the church itself. </p>
-<p>We are a congregation of exciting, interesting, faithful Christians who seek to serve our community and lead people into a deeper faith in Jesus Christ. We worship with joy, serve with warmth and compassion, and strive to be followers of Christ in all that we do. </p>
-<p>Sitka Lutheran Church is a member congregation of the Evangelical Lutheran Church in America (ELCA). Sitka Lutheran welcomes all people regardless of age, economic level, gender, race, ability, or sexual orientation. </p>
-<h2>Join us!</h2>
-<p style="text-align:center; margin-top:100px;"><img src="img/first.jpg" width="600" height="270" alt="First Protestant Church" /></p>
+<div align="center">
 
-</div>  <!-- /main -->
+</div>
+
+<div id="NewsCal">
+<h1>SHARE - <em>Soundings</em> Monthly Newsletter</h1>
+<h2>2012</h2>
+<ul>
+  <li><a href="pdfs/12-11sndgs.pdf" target="_blank">November</a></li>
+</ul>
+</div>
+<img src="img/soundings.gif" alt="Soundings" width="718" height="100" class="imgB" /></div>  <!-- /main -->
 
 <br class="clearB" />
 
@@ -185,8 +147,8 @@ var mygallery=new fadeSlideShow({
 
 </div>  <!-- /wrapper -->
 
-<div id="footer">
-&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
+<div id="footer">&copy; Copyright Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved. Site by <a href="http://www.webweaverwoman.com" target="_blank">WebWeaverWoman.com</a>.
+</div>
 
 </body>
 </html>

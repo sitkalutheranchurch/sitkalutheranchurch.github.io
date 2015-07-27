@@ -4,50 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sitka Lutheran Church</title>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="fadeslideshow.js">
-
-/***********************************************
-* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
-</script>
-
-<script type="text/javascript">
-
-var mygallery=new fadeSlideShow({
-	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [300, 225], //width/height of gallery in pixels. Should reflect dimensions of largest image
-	imagearray: [
-		["fade/366.jpg", "", "", ""],
-		["fade/sanctuary.jpg", "", "", ""],
-		["fade/412.jpg", "", "", ""],
-		["fade/410.jpg", "", "", ""],
-		["fade/540.jpg", "", "", ""],
-		["fade/058.jpg", "", "", ""],
-		["fade/064.jpg", "", "", ""],
-		["fade/loft.jpg", "", "", ""],
-		["fade/260.jpg", "", "", ""],
-		["fade/231.jpg", "", "", ""],
-		["fade/255.jpg", "", "", ""],
-		["fade/413.jpg", "", "", ""],
-		["fade/419.jpg", "", "", ""]
-		 //<--no trailing comma after very last image element!-->
-	],
-	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
-	persist: false, //remember last viewed slide and recall within same session?
-	fadeduration: 2000, //transition duration (milliseconds)
-	descreveal: "peekaboo",
-	togglerid: ""
-})
-
-</script>
-
+<title>Worship: Sitka Lutheran Church</title>
 
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
@@ -63,14 +20,14 @@ var mygallery=new fadeSlideShow({
   Sunday Worship 10:30 <span class="ampm">AM</span><br />
     Sep-May: Sunday School &amp; Adult Forum 9:15 <span class="ampm">AM</span></div>
 
-<div id="fadeshow1"></div>
+<div id="fadeshow1"><img src="fade/sanctuary.jpg" width="300" height="225" alt="WORSHIP: Sitka Lutheran Church"></div>
 
 </div><!-- /header -->
 
 
 <div class="menu">
 <dl>
-		<dt class="sub"><a href="#">WORSHIP &#8711;</a></dt>
+		<dt id="currentpage" class="sub"><a href="#">WORSHIP &#8711;</a></dt>
 		<dd>
 			<a href="expect.php">What to expect</a>
 			<a href="believe.php">What we believe</a>
@@ -133,15 +90,14 @@ var mygallery=new fadeSlideShow({
 			<a href="http://www.livinglutheran.com/" target="_blank">&nbsp; &nbsp;Living Lutheran</a>
 		</dd>
      </dl><dl>
-		<dt id="currentpage"><a href="./">Home</a></dt>
+		<dt><a href="./">Home</a></dt>
 	</dl>
     <img src="transparent.gif" alt="" />
 </div>  <!-- /menu -->
 
 
 <div id="content">
-
-<div id="sidebar">
+  <div id="sidebar">
 <h2>Announcements</h2>
 <h3><a href="pdfs/current_cal.pdf" target="_blank">Current Calendar</a><br />
   <a href="pdfs/current_sndgs.pdf" target="_blank">Current <em>Soundings</em></a></h3>
@@ -168,16 +124,28 @@ var mygallery=new fadeSlideShow({
   Sitka, AK 99835</strong></p>
 <p><img src="img/ship.gif" width="160" height="155" alt="Ship" /></p>
 </div>
-
-<div id="main">
-<h1>Welcome! </h1>
-<p>We are glad you are visiting our website and hope to see you soon at the church itself. </p>
-<p>We are a congregation of exciting, interesting, faithful Christians who seek to serve our community and lead people into a deeper faith in Jesus Christ. We worship with joy, serve with warmth and compassion, and strive to be followers of Christ in all that we do. </p>
-<p>Sitka Lutheran Church is a member congregation of the Evangelical Lutheran Church in America (ELCA). Sitka Lutheran welcomes all people regardless of age, economic level, gender, race, ability, or sexual orientation. </p>
-<h2>Join us!</h2>
-<p style="text-align:center; margin-top:100px;"><img src="img/first.jpg" width="600" height="270" alt="First Protestant Church" /></p>
-
-</div>  <!-- /main -->
+  <div id="main">
+    <h1>WORSHIP - What to expect</h1>
+    <h2><img src="fade/540.jpg" alt="Children" width="300" height="225" class="floatR imgB" />When you visit Sitka Lutheran for Sunday worship, here are some things to expect: </h2>
+    <p>We have one worship services every Sunday morning. Our 10:30 a.m. worship is about one hour long and consists of prayers, readings, and a variety of music. Our basic pattern of worship is one common among many Christian churches: </p>
+<div  id="expect">
+   <ul>
+      <li>We come together. </li>
+      <li> We hear God’s Word. </li>
+      <li> We share the Lord’s Supper. </li>
+      <li> And we are sent into the world to proclaim the gospel and serve in the name of Christ. </li>
+    </ul>
+</div>    
+<h3>COMMUNION?</h3>
+<p>We have Holy Communion every Sunday. Jesus Christ is the host at the communion table. All are welcome at the Lord’s Table regardless of church affiliation. The pastor and assistants distribute bread (gluten-free is available), and wine or grape juice to everyone at the table. If you do not wish to receive these, please know that you may also come forward during this time and receive a blessing.</p>
+<h3>CHILDREN?</h3>
+<p>Children are welcome at all our worship services and a children’s talk is always at hand. During worship, if they need a break, you can see and hear everything from the Family room at the back of the worship space. We have Sunday School for those aged 3 through adults at 9:15am, September through May. During the summer months we encourage families to worship together. </p>
+<h3>OFFERING?</h3>
+<p>We are a congregation who believe sharing our God-given gifts and resources is a worshipful part of our discipleship. We do take an offering at every service to allow members and friends to contribute their tithes and offerings. Do not feel you have to make an offering on your first visit. If you do, thank you for your generosity. </p>
+<h3>WHAT SHOULD I WEAR? </h3>
+<p>On any given Sunday morning you will find us dressed in casual attire or in suits, Cahaarts and extra-tufs or rain gear abounding since we live in a temperate rain forest, blue jeans, t-shirts (clean). Do not let your clothing keep you away from the celebration. </p>
+  
+  </div>  <!-- /main -->
 
 <br class="clearB" />
 
@@ -185,8 +153,7 @@ var mygallery=new fadeSlideShow({
 
 </div>  <!-- /wrapper -->
 
-<div id="footer">
-&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
+<div id="footer">&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
 
 </body>
 </html>

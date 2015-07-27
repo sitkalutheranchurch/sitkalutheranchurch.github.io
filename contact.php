@@ -6,49 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Sitka Lutheran Church</title>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="fadeslideshow.js">
-
-/***********************************************
-* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
-</script>
-
-<script type="text/javascript">
-
-var mygallery=new fadeSlideShow({
-	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [300, 225], //width/height of gallery in pixels. Should reflect dimensions of largest image
-	imagearray: [
-		["fade/366.jpg", "", "", ""],
-		["fade/sanctuary.jpg", "", "", ""],
-		["fade/412.jpg", "", "", ""],
-		["fade/410.jpg", "", "", ""],
-		["fade/540.jpg", "", "", ""],
-		["fade/058.jpg", "", "", ""],
-		["fade/064.jpg", "", "", ""],
-		["fade/loft.jpg", "", "", ""],
-		["fade/260.jpg", "", "", ""],
-		["fade/231.jpg", "", "", ""],
-		["fade/255.jpg", "", "", ""],
-		["fade/413.jpg", "", "", ""],
-		["fade/419.jpg", "", "", ""]
-		 //<--no trailing comma after very last image element!-->
-	],
-	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
-	persist: false, //remember last viewed slide and recall within same session?
-	fadeduration: 2000, //transition duration (milliseconds)
-	descreveal: "peekaboo",
-	togglerid: ""
-})
-
-</script>
-
-
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
@@ -63,7 +20,7 @@ var mygallery=new fadeSlideShow({
   Sunday Worship 10:30 <span class="ampm">AM</span><br />
     Sep-May: Sunday School &amp; Adult Forum 9:15 <span class="ampm">AM</span></div>
 
-<div id="fadeshow1"></div>
+<div id="fadeshow1"><img src="fade/419.jpg" width="300" height="225" alt="Connect: Sitka Lutheran Church"></div>
 
 </div><!-- /header -->
 
@@ -140,8 +97,7 @@ var mygallery=new fadeSlideShow({
 
 
 <div id="content">
-
-<div id="sidebar">
+  <div id="sidebar">
 <h2>Announcements</h2>
 <h3><a href="pdfs/current_cal.pdf" target="_blank">Current Calendar</a><br />
   <a href="pdfs/current_sndgs.pdf" target="_blank">Current <em>Soundings</em></a></h3>
@@ -168,16 +124,31 @@ var mygallery=new fadeSlideShow({
   Sitka, AK 99835</strong></p>
 <p><img src="img/ship.gif" width="160" height="155" alt="Ship" /></p>
 </div>
-
-<div id="main">
-<h1>Welcome! </h1>
-<p>We are glad you are visiting our website and hope to see you soon at the church itself. </p>
-<p>We are a congregation of exciting, interesting, faithful Christians who seek to serve our community and lead people into a deeper faith in Jesus Christ. We worship with joy, serve with warmth and compassion, and strive to be followers of Christ in all that we do. </p>
-<p>Sitka Lutheran Church is a member congregation of the Evangelical Lutheran Church in America (ELCA). Sitka Lutheran welcomes all people regardless of age, economic level, gender, race, ability, or sexual orientation. </p>
-<h2>Join us!</h2>
-<p style="text-align:center; margin-top:100px;"><img src="img/first.jpg" width="600" height="270" alt="First Protestant Church" /></p>
-
-</div>  <!-- /main -->
+  <div id="main">
+    <h1>CONNECT - Contact Sitka Lutheran Church</h1>
+  
+    <h2>907-747-3338</h2>
+  <h3><a href="mailto:slc.admin@acsalaska.net">slc.admin@acsalaska.net</a></h3>
+<h2><br />
+  Office Hours
+</h2>
+<h3>Secretary</h3>
+<p>TBA</p> 
+<h3>Pastor</h3><img src="fade/sanctuary.jpg" alt="Sanctuary" width="300" height="225" class="floatR imgB" />
+<p>  Mon, Tue, Thu: <br />
+  9:00 AM - Noon<br />
+  Wed: 3:00 - 6:00 PM<br />
+  and by appointment<br />
+  Fri: day off
+</p>
+  <h3> Mailing Address:<br />
+    SITKA LUTHERAN CHURCH<br />
+    PO BOX 598<br />
+    SITKA, AK 99835 </h3>
+ <h3><br />
+Physical Address:<br />
+   224 Lincoln Street</h3>
+  </div>  <!-- /main -->
 
 <br class="clearB" />
 
@@ -185,8 +156,8 @@ var mygallery=new fadeSlideShow({
 
 </div>  <!-- /wrapper -->
 
-<div id="footer">
-&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
+<div id="footer">&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved. Site and green hosting by <a href="http://www.webweaverwoman.com" target="_blank">WebWeaverWoman.com</a>.
+</div>
 
 </body>
 </html>

@@ -4,54 +4,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sitka Lutheran Church</title>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="fadeslideshow.js">
-
-/***********************************************
-* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
-</script>
-
-<script type="text/javascript">
-
-var mygallery=new fadeSlideShow({
-	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [300, 225], //width/height of gallery in pixels. Should reflect dimensions of largest image
-	imagearray: [
-		["fade/366.jpg", "", "", ""],
-		["fade/sanctuary.jpg", "", "", ""],
-		["fade/412.jpg", "", "", ""],
-		["fade/410.jpg", "", "", ""],
-		["fade/540.jpg", "", "", ""],
-		["fade/058.jpg", "", "", ""],
-		["fade/064.jpg", "", "", ""],
-		["fade/loft.jpg", "", "", ""],
-		["fade/260.jpg", "", "", ""],
-		["fade/231.jpg", "", "", ""],
-		["fade/255.jpg", "", "", ""],
-		["fade/413.jpg", "", "", ""],
-		["fade/419.jpg", "", "", ""]
-		 //<--no trailing comma after very last image element!-->
-	],
-	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
-	persist: false, //remember last viewed slide and recall within same session?
-	fadeduration: 2000, //transition duration (milliseconds)
-	descreveal: "peekaboo",
-	togglerid: ""
-})
-
-</script>
-
+<title>SHARE - History: Sitka Lutheran Church</title>
 
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+h3 {
+	display: inline;
+}
+
+li {
+	margin:0 0 8px 40px;
+	text-indent: -42px;
+	}
+ul ul {
+	margin:-25px 0 0 0;
+	list-style-type: disc;
+	}	
+ul ul li {
+	text-indent: 0;
+	margin-left: 16px;
+	}	
+-->
+</style>
 </head>
 
 <body>
@@ -63,7 +40,7 @@ var mygallery=new fadeSlideShow({
   Sunday Worship 10:30 <span class="ampm">AM</span><br />
     Sep-May: Sunday School &amp; Adult Forum 9:15 <span class="ampm">AM</span></div>
 
-<div id="fadeshow1"></div>
+<div id="fadeshow1"><img src="fade/255.jpg" width="300" height="225" alt="SHARE: Sitka Lutheran Church"></div>
 
 </div><!-- /header -->
 
@@ -140,8 +117,7 @@ var mygallery=new fadeSlideShow({
 
 
 <div id="content">
-
-<div id="sidebar">
+  <div id="sidebar">
 <h2>Announcements</h2>
 <h3><a href="pdfs/current_cal.pdf" target="_blank">Current Calendar</a><br />
   <a href="pdfs/current_sndgs.pdf" target="_blank">Current <em>Soundings</em></a></h3>
@@ -168,16 +144,76 @@ var mygallery=new fadeSlideShow({
   Sitka, AK 99835</strong></p>
 <p><img src="img/ship.gif" width="160" height="155" alt="Ship" /></p>
 </div>
-
-<div id="main">
-<h1>Welcome! </h1>
-<p>We are glad you are visiting our website and hope to see you soon at the church itself. </p>
-<p>We are a congregation of exciting, interesting, faithful Christians who seek to serve our community and lead people into a deeper faith in Jesus Christ. We worship with joy, serve with warmth and compassion, and strive to be followers of Christ in all that we do. </p>
-<p>Sitka Lutheran Church is a member congregation of the Evangelical Lutheran Church in America (ELCA). Sitka Lutheran welcomes all people regardless of age, economic level, gender, race, ability, or sexual orientation. </p>
-<h2>Join us!</h2>
-<p style="text-align:center; margin-top:100px;"><img src="img/first.jpg" width="600" height="270" alt="First Protestant Church" /></p>
-
-</div>  <!-- /main -->
+  <div id="main">
+    <h1>SHARE - Our History</h1>
+<p>Our congregation, in God's hands, has kept faith with our community for 170 plus years. We share our congregation's rich and abiding history as a way to learn, motivate, and remind us that God keeps faith with his people. It is on this foundation of God’s faithfulness on which we continue to grow. God’s Holy Spirit is still working in the people of this church and this community and we strive to be attentive to where God is calling us&nbsp;next.
+</p>
+<h2>TIMELINE
+</h2>
+<ul>
+<li><h3>1839: </h3> Russia’s Czar approves the building of a Lutheran Church in New Archangel (Sitka).</li>
+<li>
+  <h3>1840: 
+  </h3>
+</li>
+<li>
+  <ul>
+    <li>Vessels NIKOLAI I and KONSTANTIN bring new chief Manager of the Russian-American Company, new pastor, staff, furnishings for the new Evangelical Lutheran Church, along with Finnish, Baltic Germans, Estonians, Latvians and Lithuanian Lutherans to New Archangel.    </li>
+    <li>Pastor Uno Cygnaeus presides at the first Lutheran Service in New Archangel.    </li>
+    <li>Pastor Cygnaeus dedicates the Evangelical Lutheran Cemetery. </li>
+  </ul>
+</li>
+<li>
+  <h3>1843:</h3> First Lutheran Church Building dedicated. (The current facility stands on the site of the original building.)
+</li>
+<li>
+  <h3>1844:</h3> The Estonian built Kessler pipe organ arrives at the church. It the first pipe organ on the west coast of North American and is still in use every Sunday!
+</li>
+<li><h3>1867:</h3> Control of Alaska transferred from Russian to the United States.</li>
+<li><h3>1860’s-70’s:</h3> Soldiers & Sitkans worship in Lutheran Church, but with the transience of the population during this time the building falls into disrepair over the years.  </li>
+<li>
+  <h3>1888:</h3> Finnish Lutheran Church building torn down due to vandalized condition.
+</li>
+<li><h3>1888-1942:</h3> A small but vibrant band of "left-over" Lutherans worship in homes & public buildings, conduct services, hold Sunday School & Confirmation.</li>
+<li><h3>1935:</h3> Lutheran Church incorporated in Alaska Territory. Members begin the task of planning and constructing their next facility.</li>
+<img src="img/historicchurch.jpg" alt="Historic Church" width="147" height="227" class="floatR imgB" />
+<li><h3>1942:</h3> 2nd Lutheran Church building dedicated. Congregational members renew their sense of mission and ministry in Sitka</li>
+<li>
+  <h3>1959:</h3> Alaska becomes our 49th state.
+</li>
+<li>
+  <h3>1966:</h3> Lutheran Church totally destroyed by fire.
+</li>
+<li>
+  <h3>1967:</h3> 3rd and current Lutheran Church building dedicated.
+</li>
+<li>
+  <h3>1993:</h3> Lutheran Church sanctuary damaged by fire & Sitka's Volunteer Fire Department does an  exceptional    job of saving the building.
+</li>
+<li>
+  <h3>1995:</h3> Remodeled Lutheran Church building dedicated. Members and friends throughout the community help in this massive project.
+</li>
+<li>
+  <h3>1997:</h3> New stained glass windows, made by Dick Weitz, Seattle artist, are installed.
+</li>
+<li>
+  <h3>1998:</h3> New altar dedicated; made from pew wood salvaged from the 1993 fire.
+</li>
+<li>
+  <h3>1999:</h3> New sanctuary crosses dedicated; also made from pew wood salvaged from the 1993 fire.
+</li>
+<li>
+  <h3>2000:</h3> SLC celebrates 160th Anniversary and rededicated the historical Lutheran cemetary
+    2001: Painting of the Transfiguration by noted Finnish artist Berndt Abraham Godenhjelm sent to Finland for restoration. It was returned in 2004 and hangs in the sanctuary today.
+</li>
+<li>
+  <h3>2005: </h3>Congregation celebrates 165th anniversary
+</li>
+<li>
+  <h3>2009:</h3> Congregation calls its 14th, and first female, pastor. 
+</li>
+</ul>  
+  </div>  <!-- /main -->
 
 <br class="clearB" />
 
@@ -185,8 +221,7 @@ var mygallery=new fadeSlideShow({
 
 </div>  <!-- /wrapper -->
 
-<div id="footer">
-&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
+<div id="footer">&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
 
 </body>
 </html>

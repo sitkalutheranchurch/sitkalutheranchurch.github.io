@@ -4,50 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sitka Lutheran Church</title>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="fadeslideshow.js">
-
-/***********************************************
-* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
-</script>
-
-<script type="text/javascript">
-
-var mygallery=new fadeSlideShow({
-	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [300, 225], //width/height of gallery in pixels. Should reflect dimensions of largest image
-	imagearray: [
-		["fade/366.jpg", "", "", ""],
-		["fade/sanctuary.jpg", "", "", ""],
-		["fade/412.jpg", "", "", ""],
-		["fade/410.jpg", "", "", ""],
-		["fade/540.jpg", "", "", ""],
-		["fade/058.jpg", "", "", ""],
-		["fade/064.jpg", "", "", ""],
-		["fade/loft.jpg", "", "", ""],
-		["fade/260.jpg", "", "", ""],
-		["fade/231.jpg", "", "", ""],
-		["fade/255.jpg", "", "", ""],
-		["fade/413.jpg", "", "", ""],
-		["fade/419.jpg", "", "", ""]
-		 //<--no trailing comma after very last image element!-->
-	],
-	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
-	persist: false, //remember last viewed slide and recall within same session?
-	fadeduration: 2000, //transition duration (milliseconds)
-	descreveal: "peekaboo",
-	togglerid: ""
-})
-
-</script>
-
+<title>Worship: Sitka Lutheran Church</title>
 
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
@@ -63,14 +20,14 @@ var mygallery=new fadeSlideShow({
   Sunday Worship 10:30 <span class="ampm">AM</span><br />
     Sep-May: Sunday School &amp; Adult Forum 9:15 <span class="ampm">AM</span></div>
 
-<div id="fadeshow1"></div>
+<div id="fadeshow1"><img src="fade/sanctuary.jpg" width="300" height="225" alt="WORSHIP: Sitka Lutheran Church"></div>
 
 </div><!-- /header -->
 
 
 <div class="menu">
 <dl>
-		<dt class="sub"><a href="#">WORSHIP &#8711;</a></dt>
+		<dt id="currentpage" class="sub"><a href="#">WORSHIP &#8711;</a></dt>
 		<dd>
 			<a href="expect.php">What to expect</a>
 			<a href="believe.php">What we believe</a>
@@ -133,15 +90,14 @@ var mygallery=new fadeSlideShow({
 			<a href="http://www.livinglutheran.com/" target="_blank">&nbsp; &nbsp;Living Lutheran</a>
 		</dd>
      </dl><dl>
-		<dt id="currentpage"><a href="./">Home</a></dt>
+		<dt><a href="./">Home</a></dt>
 	</dl>
     <img src="transparent.gif" alt="" />
 </div>  <!-- /menu -->
 
 
 <div id="content">
-
-<div id="sidebar">
+  <div id="sidebar">
 <h2>Announcements</h2>
 <h3><a href="pdfs/current_cal.pdf" target="_blank">Current Calendar</a><br />
   <a href="pdfs/current_sndgs.pdf" target="_blank">Current <em>Soundings</em></a></h3>
@@ -168,15 +124,45 @@ var mygallery=new fadeSlideShow({
   Sitka, AK 99835</strong></p>
 <p><img src="img/ship.gif" width="160" height="155" alt="Ship" /></p>
 </div>
+  <div id="main">
+    <h1>WORSHIP - What we believe</h1>
+<img src="img/bible.jpg" alt="Bible" width="150" height="225" class="floatR imgB" style="margin:5px 0 0 25px;" />    <p><strong>WE SEEK TO PROCLAIM AND LIVE OUT</strong> the good news of God's love in Jesus Christ for&nbsp;all people. As Lutheran Christians, we stand on four basic principles: </p>
+    
 
-<div id="main">
-<h1>Welcome! </h1>
-<p>We are glad you are visiting our website and hope to see you soon at the church itself. </p>
-<p>We are a congregation of exciting, interesting, faithful Christians who seek to serve our community and lead people into a deeper faith in Jesus Christ. We worship with joy, serve with warmth and compassion, and strive to be followers of Christ in all that we do. </p>
-<p>Sitka Lutheran Church is a member congregation of the Evangelical Lutheran Church in America (ELCA). Sitka Lutheran welcomes all people regardless of age, economic level, gender, race, ability, or sexual orientation. </p>
-<h2>Join us!</h2>
-<p style="text-align:center; margin-top:100px;"><img src="img/first.jpg" width="600" height="270" alt="First Protestant Church" /></p>
-
+<div id="expect">
+    
+<ul style="list-style-type:disc; margin-top:-5px;"> 
+  <li><strong>GRACE ALONE</strong> <br />
+    God's love is unearned and unconditional. This love is called &quot;grace.&quot; </li>
+    <li><strong>FAITH ALONE</strong> <br />
+      Through God's gift of faith we say &quot;yes&quot; to God's gift of grace. </li>
+    <li><strong>CHRIST ALONE</strong> <br />
+      God's ultimate act of selfless love comes through the death and resurrection of&nbsp;Jesus Christ. </li>
+    <li><strong>SCRIPTURE ALONE</strong> <br />
+      Through the scriptures we discover God's love and life. We seek to understand the modern world in dialog with these authoritative words of faith. </li>
+    </ul>
+    
+<p><strong>WE RESPOND TO WHAT GOD HAS DONE THROUGH</strong></p>
+	<ul style="margin-top:-10px;">
+    <li>Worship</li>
+    <li>Fellowship</li>
+    <li>Caring</li>
+    <li>Service</li>
+    </ul>    
+    </div> 
+    <h2 style="margin-bottom:0;">Ecumenical Partners</h2>
+    <p>Locally, Sitka Lutheran Church is a member in the Sitka Christian   Ministerial Association which consists of about 12 different   denominations.   Jointly, we create and participate in the annual Blessing of the Fleet   and a community Easter Sunrise Service.</p>
+    <p>Internationally, Lutherans are part of a reforming movement within the whole Christian church; as a part of practicing their faith, the Evangelical Lutheran Church in America has, and continues to, engage in ecumenical dialogue with other church bodies. The ELCA has entered into cooperative &quot;full communion&quot; agreements with several other Protestant denominations, including
+    <div id="expect">    
+    <ul>
+<li>The Episcopal Church </li>
+<li>The Moravian Church  </li>
+<li> The Presbyterian Church (USA) </li>
+<li>The Reformed Church in America </li>
+<li> The United Church of Christ </li>
+<li>The United Methodist Church </li>
+    </ul>
+</div>
 </div>  <!-- /main -->
 
 <br class="clearB" />
@@ -185,8 +171,7 @@ var mygallery=new fadeSlideShow({
 
 </div>  <!-- /wrapper -->
 
-<div id="footer">
-&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
+<div id="footer">&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
 
 </body>
 </html>

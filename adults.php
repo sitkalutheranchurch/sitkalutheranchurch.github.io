@@ -6,52 +6,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Sitka Lutheran Church</title>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="fadeslideshow.js">
-
-/***********************************************
-* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
-</script>
-
-<script type="text/javascript">
-
-var mygallery=new fadeSlideShow({
-	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [300, 225], //width/height of gallery in pixels. Should reflect dimensions of largest image
-	imagearray: [
-		["fade/366.jpg", "", "", ""],
-		["fade/sanctuary.jpg", "", "", ""],
-		["fade/412.jpg", "", "", ""],
-		["fade/410.jpg", "", "", ""],
-		["fade/540.jpg", "", "", ""],
-		["fade/058.jpg", "", "", ""],
-		["fade/064.jpg", "", "", ""],
-		["fade/loft.jpg", "", "", ""],
-		["fade/260.jpg", "", "", ""],
-		["fade/231.jpg", "", "", ""],
-		["fade/255.jpg", "", "", ""],
-		["fade/413.jpg", "", "", ""],
-		["fade/419.jpg", "", "", ""]
-		 //<--no trailing comma after very last image element!-->
-	],
-	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
-	persist: false, //remember last viewed slide and recall within same session?
-	fadeduration: 2000, //transition duration (milliseconds)
-	descreveal: "peekaboo",
-	togglerid: ""
-})
-
-</script>
-
-
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+h2 {
+	margin-bottom: 0;
+}
+-->
+</style>
 </head>
 
 <body>
@@ -63,7 +27,8 @@ var mygallery=new fadeSlideShow({
   Sunday Worship 10:30 <span class="ampm">AM</span><br />
     Sep-May: Sunday School &amp; Adult Forum 9:15 <span class="ampm">AM</span></div>
 
-<div id="fadeshow1"></div>
+<div id="fadeshow1">
+  <img src="img/tba.jpg" width="300" height="225" alt="Connect: Sitka Lutheran Church"></div>
 
 </div><!-- /header -->
 
@@ -79,7 +44,7 @@ var mygallery=new fadeSlideShow({
 			<a href="funerals.php">Funerals</a>
 		</dd>
 	</dl><dl>
-		<dt class="sub"><a href="#">GROW &#8711;</a></dt>
+		<dt id="currentpage" class="sub"><a href="#">GROW &#8711;</a></dt>
 		<dd>
 			<a href="children.php">Children</a>
 			<a href="youth.php">Youth</a>
@@ -133,15 +98,14 @@ var mygallery=new fadeSlideShow({
 			<a href="http://www.livinglutheran.com/" target="_blank">&nbsp; &nbsp;Living Lutheran</a>
 		</dd>
      </dl><dl>
-		<dt id="currentpage"><a href="./">Home</a></dt>
+		<dt><a href="./">Home</a></dt>
 	</dl>
     <img src="transparent.gif" alt="" />
 </div>  <!-- /menu -->
 
 
 <div id="content">
-
-<div id="sidebar">
+  <div id="sidebar">
 <h2>Announcements</h2>
 <h3><a href="pdfs/current_cal.pdf" target="_blank">Current Calendar</a><br />
   <a href="pdfs/current_sndgs.pdf" target="_blank">Current <em>Soundings</em></a></h3>
@@ -168,16 +132,26 @@ var mygallery=new fadeSlideShow({
   Sitka, AK 99835</strong></p>
 <p><img src="img/ship.gif" width="160" height="155" alt="Ship" /></p>
 </div>
-
-<div id="main">
-<h1>Welcome! </h1>
-<p>We are glad you are visiting our website and hope to see you soon at the church itself. </p>
-<p>We are a congregation of exciting, interesting, faithful Christians who seek to serve our community and lead people into a deeper faith in Jesus Christ. We worship with joy, serve with warmth and compassion, and strive to be followers of Christ in all that we do. </p>
-<p>Sitka Lutheran Church is a member congregation of the Evangelical Lutheran Church in America (ELCA). Sitka Lutheran welcomes all people regardless of age, economic level, gender, race, ability, or sexual orientation. </p>
-<h2>Join us!</h2>
-<p style="text-align:center; margin-top:100px;"><img src="img/first.jpg" width="600" height="270" alt="First Protestant Church" /></p>
-
-</div>  <!-- /main -->
+  <div id="main">
+    <h1>GROW in Faith Formation - Adults</h1>
+    <h2>Sunday Lessons</h2>
+    <p> Wednesday evenings at about 6:3 <span class="ampm">PM</span>, right after Soup Supper<br />
+      A discussion of the major events of the bible that will coincide with our Sunday sermon messages. </p>
+    <h2>Men’s Breakfast Bible Study </h2>
+    <p> Thursday mornings at 6:30 <span class="ampm">AM</span>  in the Fellowship Hall </p>
+    <h2>Women's Bible Study  
+    </h2>
+    <p>1st & 3rd Thursdays of the month at 12:30 <span class="ampm">PM</span> in the Pioneer Home. <br />
+      Studies are taken from the Women of the ELCA magazine,<em> Gather</em>. </p>
+    <h2>Adult Forum      </h2>
+    <p>Sunday School - Sunday Mornings 9:15 <span class="ampm">AM</span> in the church lobby <br />
+      We take a look at the major articles in the current issue of The Lutheran magazine and talk through the study guide questions. </p>
+    <h2>The “Other” Adult Forum      </h2>
+    <p>Sundays at 12:30 <span class="ampm">PM</span><br />
+      Adults meet to discuss a theological topic of their choosing. We started with the basics of Lutheran doctrine and are moving on from there to more in-depth looks at the Lutheran point of view. </p>
+    <h2>New Members Class – 4 Weeks       </h2>
+    <p>As the need and desire arises we will conduct new member classes. We will meet 4 to 7 times for an interesting and fun time of understanding Christianity and Lutheranism, joining a church, and SLC membership to help you on your spiritual journey. </p>
+  </div>  <!-- /main -->
 
 <br class="clearB" />
 
@@ -185,8 +159,7 @@ var mygallery=new fadeSlideShow({
 
 </div>  <!-- /wrapper -->
 
-<div id="footer">
-&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
+<div id="footer">&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
 
 </body>
 </html>

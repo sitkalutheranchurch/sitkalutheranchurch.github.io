@@ -6,52 +6,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Sitka Lutheran Church</title>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="fadeslideshow.js">
-
-/***********************************************
-* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
-</script>
-
-<script type="text/javascript">
-
-var mygallery=new fadeSlideShow({
-	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [300, 225], //width/height of gallery in pixels. Should reflect dimensions of largest image
-	imagearray: [
-		["fade/366.jpg", "", "", ""],
-		["fade/sanctuary.jpg", "", "", ""],
-		["fade/412.jpg", "", "", ""],
-		["fade/410.jpg", "", "", ""],
-		["fade/540.jpg", "", "", ""],
-		["fade/058.jpg", "", "", ""],
-		["fade/064.jpg", "", "", ""],
-		["fade/loft.jpg", "", "", ""],
-		["fade/260.jpg", "", "", ""],
-		["fade/231.jpg", "", "", ""],
-		["fade/255.jpg", "", "", ""],
-		["fade/413.jpg", "", "", ""],
-		["fade/419.jpg", "", "", ""]
-		 //<--no trailing comma after very last image element!-->
-	],
-	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
-	persist: false, //remember last viewed slide and recall within same session?
-	fadeduration: 2000, //transition duration (milliseconds)
-	descreveal: "peekaboo",
-	togglerid: ""
-})
-
-</script>
-
-
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href="css/menu.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+h2 {
+	margin-bottom: 0;
+}
+-->
+</style>
 </head>
 
 <body>
@@ -63,7 +27,8 @@ var mygallery=new fadeSlideShow({
   Sunday Worship 10:30 <span class="ampm">AM</span><br />
     Sep-May: Sunday School &amp; Adult Forum 9:15 <span class="ampm">AM</span></div>
 
-<div id="fadeshow1"></div>
+<div id="fadeshow1">
+  <img src="img/tba.jpg" width="300" height="225" alt="Connect: Sitka Lutheran Church"></div>
 
 </div><!-- /header -->
 
@@ -79,7 +44,7 @@ var mygallery=new fadeSlideShow({
 			<a href="funerals.php">Funerals</a>
 		</dd>
 	</dl><dl>
-		<dt class="sub"><a href="#">GROW &#8711;</a></dt>
+		<dt id="currentpage" class="sub"><a href="#">GROW &#8711;</a></dt>
 		<dd>
 			<a href="children.php">Children</a>
 			<a href="youth.php">Youth</a>
@@ -133,15 +98,14 @@ var mygallery=new fadeSlideShow({
 			<a href="http://www.livinglutheran.com/" target="_blank">&nbsp; &nbsp;Living Lutheran</a>
 		</dd>
      </dl><dl>
-		<dt id="currentpage"><a href="./">Home</a></dt>
+		<dt><a href="./">Home</a></dt>
 	</dl>
     <img src="transparent.gif" alt="" />
 </div>  <!-- /menu -->
 
 
 <div id="content">
-
-<div id="sidebar">
+  <div id="sidebar">
 <h2>Announcements</h2>
 <h3><a href="pdfs/current_cal.pdf" target="_blank">Current Calendar</a><br />
   <a href="pdfs/current_sndgs.pdf" target="_blank">Current <em>Soundings</em></a></h3>
@@ -168,16 +132,14 @@ var mygallery=new fadeSlideShow({
   Sitka, AK 99835</strong></p>
 <p><img src="img/ship.gif" width="160" height="155" alt="Ship" /></p>
 </div>
-
-<div id="main">
-<h1>Welcome! </h1>
-<p>We are glad you are visiting our website and hope to see you soon at the church itself. </p>
-<p>We are a congregation of exciting, interesting, faithful Christians who seek to serve our community and lead people into a deeper faith in Jesus Christ. We worship with joy, serve with warmth and compassion, and strive to be followers of Christ in all that we do. </p>
-<p>Sitka Lutheran Church is a member congregation of the Evangelical Lutheran Church in America (ELCA). Sitka Lutheran welcomes all people regardless of age, economic level, gender, race, ability, or sexual orientation. </p>
-<h2>Join us!</h2>
-<p style="text-align:center; margin-top:100px;"><img src="img/first.jpg" width="600" height="270" alt="First Protestant Church" /></p>
-
-</div>  <!-- /main -->
+  <div id="main">
+    <h1>GROW in Faith Formation - What Is a Lutheran?</h1>
+    <p><strong><img src="img/luther-engraving.jpg" alt="Luther Engraving" width="200" height="302" class="floatR imgB" style="margin-left:35px;" />Martin Luther</strong> (b. November 10, 1483, in Eisleben, Germany, d. February 18, 1546, in Eisleben) is known as the Father of Protestantism. He had studied to become a lawyer before becoming an Augustinian monk in 1505 and was ordained a priest in 1507.  While continuing his studies in pursuit of a Doctor of Theology degree, he discovered significant differences between what he read in the Bible and the theology and practices of the church. On October&nbsp;31, 1517, he posted a challenge on the church door at Wittenberg University to debate 95 theological issues.  Luther's hope was that the church would reform its practice and preaching to be more consistent with the Word of God as contained in the Bible. </p>
+    <p>What started as an academic debate escalated to major religious disagreements fueled by fiery temperaments and violent language on all sides. As a result, there was not a reformation of the church but a separation.  "Lutheran" was a name applied to Luther and his followers as an insult but adopted as a badge of honor by them instead. Lutherans still celebrate the Reformation on October 31. (See <a href="believe.php">“What we believe”</a> for more information). </p>
+    <p style="text-align:right; margin-top:-30px;"><em>Engraving of Dr. Martin Luther<br />from the <a href="http://www.flickr.com/photos/elcaarchives/2494858613/in/photostream/" target="_blank">archives</a> of the<br />
+    Evangelical Lutheran Church<br />
+    in America</span> </em></p>
+  </div>  <!-- /main -->
 
 <br class="clearB" />
 
@@ -185,8 +147,7 @@ var mygallery=new fadeSlideShow({
 
 </div>  <!-- /wrapper -->
 
-<div id="footer">
-&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
+<div id="footer">&copy; Copyright by Sitka Lutheran Church 2007-15, Sitka, AK.  All rights reserved.</div>
 
 </body>
 </html>
