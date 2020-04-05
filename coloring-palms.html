@@ -2,9 +2,16 @@
 <html lang="en">
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Coloring Palms Print Page</title>
+  <style>
+    @media print {
+      .noprint {
+      display: none;
+    }
+    }
+  </style>
 </head>
 <body>
-<img src="color-palms.jpg">
-<button onclick="window.print()">Print this page</button>
+<img src="coloring-palms.jpg">
+  <div class="noprint"><button onclick="window.print()">Print this page</button></div>
 </body>
 </html>
